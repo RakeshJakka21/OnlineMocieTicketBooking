@@ -1,0 +1,4 @@
+wwwroot\images\banners\hero.jpg
+wwwroot\images\posters\darkknight.png
+wwwroot\images\posters\inception.png
+wwwroot\images\posters\interstellar.png

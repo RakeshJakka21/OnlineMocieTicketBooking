@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MovieBooking.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:7467;http://localhost:7468"
+    }
+  }
+}

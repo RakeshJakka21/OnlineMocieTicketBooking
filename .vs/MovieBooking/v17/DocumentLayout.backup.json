@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77777777-7777-7777-7777-777777777777}|MovieBooking.Tests\\MovieBooking.Tests.csproj|c:\\users\\yoges\\downloads\\bookmyshowstylemoviebooking\\moviebooking.tests\\reportsandseattests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77777777-7777-7777-7777-777777777777}|MovieBooking.Tests\\MovieBooking.Tests.csproj|solutionrelative:moviebooking.tests\\reportsandseattests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|MovieBooking.Api\\MovieBooking.Api.csproj|c:\\users\\yoges\\downloads\\bookmyshowstylemoviebooking\\moviebooking.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|MovieBooking.Api\\MovieBooking.Api.csproj|solutionrelative:moviebooking.api\\controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|MovieBooking.Api\\MovieBooking.Api.csproj|c:\\users\\yoges\\downloads\\bookmyshowstylemoviebooking\\moviebooking.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|MovieBooking.Api\\MovieBooking.Api.csproj|solutionrelative:moviebooking.api\\controllers\\bookingscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66666666-6666-6666-6666-666666666666}|MovieBooking.Web\\MovieBooking.Web.csproj|c:\\users\\yoges\\downloads\\bookmyshowstylemoviebooking\\moviebooking.web\\views\\bookings\\selectseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{66666666-6666-6666-6666-666666666666}|MovieBooking.Web\\MovieBooking.Web.csproj|solutionrelative:moviebooking.web\\views\\bookings\\selectseats.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReportsController.cs",
+              "DocumentMoniker": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Api\\Controllers\\ReportsController.cs",
+              "RelativeDocumentMoniker": "MovieBooking.Api\\Controllers\\ReportsController.cs",
+              "ToolTip": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Api\\Controllers\\ReportsController.cs",
+              "RelativeToolTip": "MovieBooking.Api\\Controllers\\ReportsController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAMwBIAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:21:12.272Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ReportsAndSeatTests.cs",
+              "DocumentMoniker": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Tests\\ReportsAndSeatTests.cs",
+              "RelativeDocumentMoniker": "MovieBooking.Tests\\ReportsAndSeatTests.cs",
+              "ToolTip": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Tests\\ReportsAndSeatTests.cs*",
+              "RelativeToolTip": "MovieBooking.Tests\\ReportsAndSeatTests.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:20:12.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SelectSeats.cshtml",
+              "DocumentMoniker": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Web\\Views\\Bookings\\SelectSeats.cshtml",
+              "RelativeDocumentMoniker": "MovieBooking.Web\\Views\\Bookings\\SelectSeats.cshtml",
+              "ToolTip": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Web\\Views\\Bookings\\SelectSeats.cshtml",
+              "RelativeToolTip": "MovieBooking.Web\\Views\\Bookings\\SelectSeats.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-19T12:16:27.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BookingsController.cs",
+              "DocumentMoniker": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Api\\Controllers\\BookingsController.cs",
+              "RelativeDocumentMoniker": "MovieBooking.Api\\Controllers\\BookingsController.cs",
+              "ToolTip": "C:\\Users\\yoges\\Downloads\\BookMyShowStyleMovieBooking\\MovieBooking.Api\\Controllers\\BookingsController.cs",
+              "RelativeToolTip": "MovieBooking.Api\\Controllers\\BookingsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJ8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-19T12:16:21.74Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

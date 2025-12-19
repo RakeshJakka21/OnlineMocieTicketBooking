@@ -1,0 +1,20 @@
+
+@model MovieBooking.Web.Controllers.MovieDto
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="bg-white p-4 rounded shadow">
+  <div class="row">
+    <div class="col-md-4">
+      <img src="@Model.PosterPath" class="img-fluid" alt="@Model.Title" />
+    </div>
+    <div class="col-md-8">
+      <h2>@Model.Title</h2>
+      <p class="text-gray-600">@Model.Description</p>
+      <p>Duration: <strong>@Model.DurationMinutes</strong> min</p>
+      <p>Rating: <strong>@Model.Rating</strong></p>
+      <a class="btn btn-primary" href="/Bookings/SelectSeats?screeningId=1">Book Seats</a>
+      <a class="btn btn-secondary" asp-action="Index">Back</a>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,30 @@
+
+@model List<MovieBooking.Web.Controllers.MovieDto>
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="bg-white p-4 rounded shadow">
+  <div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="m-0">Movies</h2>
+    <a class="btn btn-primary" asp-action="Create">Create</a>
+  </div>
+  <div class="row g-3">
+    @foreach (var m in Model)
+    {
+      <div class="col-6 col-md-4 col-lg-3">
+        <div class="card h-100">
+          <img src="@m.PosterPath" class="card-img-top" alt="@m.Title" />
+          <div class="card-body">
+            <h5 class="card-title">@m.Title</h5>
+            <p>@m.Rating</p>
+            <a class="btn btn-sm btn-secondary" asp-action="Edit" asp-route-id="@m.Id">Edit</a>
+            <a class="btn btn-sm btn-info" asp-action="Details" asp-route-id="@m.Id">Details</a>
+            <form asp-action="Delete" asp-route-id="@m.Id" method="post" class="d-inline">
+              <button type="submit" class="btn btn-sm btn-danger">Delete</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    }
+  </div>
+</div>

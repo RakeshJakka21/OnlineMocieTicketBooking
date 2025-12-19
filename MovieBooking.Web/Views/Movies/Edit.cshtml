@@ -1,0 +1,33 @@
+
+@model MovieBooking.Web.Controllers.MovieDto
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="bg-white p-4 rounded shadow">
+  <h2>Edit Movie</h2>
+  <form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="mb-2">
+      <label class="form-label">Title</label>
+      <input class="form-control" asp-for="Title" />
+    </div>
+    <div class="mb-2">
+      <label class="form-label">Description</label>
+      <textarea class="form-control" asp-for="Description"></textarea>
+    </div>
+    <div class="mb-2">
+      <label class="form-label">DurationMinutes</label>
+      <input class="form-control" asp-for="DurationMinutes" type="number" />
+    </div>
+    <div class="mb-2">
+      <label class="form-label">Rating</label>
+      <input class="form-control" asp-for="Rating" type="number" step="0.1" />
+    </div>
+    <div class="mb-2">
+      <label class="form-label">PosterPath</label>
+      <input class="form-control" asp-for="PosterPath" />
+    </div>
+    <button class="btn btn-primary" type="submit">Save</button>
+    <a class="btn btn-secondary" asp-action="Index">Cancel</a>
+  </form>
+</div>

@@ -1,0 +1,13 @@
+
+@model MovieBooking.Web.Controllers.BookingDto
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="bg-white p-4 rounded shadow">
+  <h2>Booking Confirmation</h2>
+  <p>Booking ID: <strong>@Model.Id</strong></p>
+  <p>Total Price: <strong>R @Model.TotalPrice</strong></p>
+  <p>Seats: <strong>@Model.Seats</strong></p>
+  <p>Time: <strong>@Model.BookingTime</strong></p>
+  <a class="btn btn-secondary" href="/">Back to Home</a>
+</div>

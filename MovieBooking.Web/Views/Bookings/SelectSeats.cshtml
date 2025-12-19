@@ -1,0 +1,56 @@
+@model List<MovieBooking.Web.Controllers.SeatDto>
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    var screeningId = (int)ViewBag.ScreeningId;
+}
+
+<div class="bg-white p-4 rounded shadow">
+    <h2 class="mb-3">Select Seats</h2>
+
+    @if (TempData["Error"] != null)
+    {
+        <div class="alert alert-danger">
+            @TempData["Error"]
+        </div>
+    }
+
+    <form asp-action="Checkout" method="post" id="seatForm">
+        @Html.AntiForgeryToken()
+
+        <input type="hidden" name="screeningId" value="@screeningId" />
+
+        <div class="mb-3">
+            <label class="form-label">Customer Id</label>
+            <input class="form-control" type="number" name="customerId" value="1" required />
+        </div>
+
+        <div class="row row-cols-5 g-2 mb-3">
+            @foreach (var s in Model)
+            {
+                <div class="col">
+                    <label class="form-check d-flex align-items-center">
+                        <input type="checkbox"
+                               name="seatIds"
+                               value="@s.Id"
+                               class="form-check-input me-2"
+                               @(s.IsBooked ? "disabled" : "") />
+
+                        <span class="badge bg-@(s.IsBooked ? "secondary" : "success")">
+                            R@s.Row-S@s.Number
+                        </span>
+                    </label>
+                </div>
+            }
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Promo Code</label>
+            <input class="form-control" type="text" name="promoCode" placeholder="WELCOME10" />
+        </div>
+
+        <button class="btn btn-primary" type="submit">
+            Proceed to Checkout
+        </button>
+    </form>
+</div>
